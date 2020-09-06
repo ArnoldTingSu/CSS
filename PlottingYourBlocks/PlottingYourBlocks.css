@@ -1,4 +1,4 @@
-/*CSS reset settings here*/
+
 *{
     margin: 0px;
     padding: 0px;
@@ -7,28 +7,96 @@
     width: 950px;
     background-color: silver;
     margin: 0px auto;
+    padding: 15px;
    }
    #header{
     height: 150px;
     background-color: green;
+    margin-bottom: 15px;
    }
    #navigation{
     height: 300px;
     width: 200px;
     background-color: blue;
+    display: inline-block;
+    vertical-align: top;
    }
    #main_content{
     height: 400px;
     width: 700px;
     background-color: red;
+    display:inline-block;
+    margin-left: 15px;
+    padding: 15px;
    }
    .subcontents{
     height: 200px;
     width: 210px;
     background-color: yellow;
+    display: inline-block;
+    margin-right: 15px;
    }
    #advertisement{
     height: 120px;
     width: 660px;
+    background-color: purple;
+    margin-top: 15px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+/*#*{
+    margin: 0px;
+    padding: 0px;
+   }
+   #wrapper{
+    width: 950px;
+    height: 600px;
+    background-color: lightslategrey;
+    margin: 0px auto;
+    padding: 30px;
+   }
+   #header{
+    height: 100px;
+    width: 100px auto;
+    background-color: green;
+    margin: 0px auto 15px auto;
+   }
+   #navigation{
+    height: 450px;
+    width: 300px;
+    background-color: blue;
+    margin: auto;
+    float: left;
+   }
+   #main_content{
+    height: 430px;
+    width: 575px;
+    background-color: red;
+    margin: auto;
+    padding: 10px;
+    float: right;
+   }
+
+   .subcontents{
+    height: 160px;
+    width: 160px;
+    display:inline-block;
+    background-color: yellow;
+    margin: 10px;
+   }
+
+   #advertisement{
+    height: 120px;
+    width: auto;
+    margin: 0px;
     background-color: purple;
    }
