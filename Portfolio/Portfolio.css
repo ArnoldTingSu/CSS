@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 750px;
+    width: 1000px;
+    border: 2px dotted teal;
+    background-image: linear-gradient(to bottom right, purple, white, purple);
+
+}
+.heading{
+    border: 2px dotted black;
+    background-color: cornflowerblue;
+    padding: 15px;
+    
+}
+.heading h1{
+    display: inline;
+    text-align: left;
+    
+}
+.heading h2{
+    display: inline;
+    text-align: justify;
+    margin-left: 400px;
+}
+.main{
+    width: 1000px;
+    height: 600px;
+    border: 1px dotted green;
+}
+.profile-pic{
+    width: 400px;
+    height: 300px;
+    border: 1px dotted brown;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.bio{
+    width: 530px;
+    height: 300px;
+    border: 1px dotted magenta;
+    margin: 20px 20px 20px 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.bio-header{
+    width: 530px;
+    height: 40px;
+    border: 1px dotted teal;
+   
+}
+.bio-header h2{
+    text-align: left;
+    
+}
