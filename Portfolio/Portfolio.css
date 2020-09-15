@@ -1,0 +1,116 @@
+#container {
+width: 970px;
+margin: 0 auto;
+}
+#page {
+    margin: 0 20px;
+    background-image: linear-gradient(to top right, #1f0f13, #6f5964, #1f0f13);
+}
+#heading {
+    padding: 0 15px;
+    background-image: linear-gradient(to top right, #f5f5f5, #d4d4d4);
+}
+#heading h1, h2 {
+    display: inline-block;
+    margin: 0px;
+    padding: 10px;
+}
+#heading > h2 {
+    padding-left: 350px;
+}
+#heading > h1 {
+    font-style: oblique;
+}
+#main-content {
+    margin: 20px;
+}
+#profile-pic, #about-me {
+    vertical-align: top;
+}
+#main-content > div {
+    display: inline-block;
+}
+#profile-pic {
+    background-color: lightgrey;
+    padding: 5px;
+    margin-right: 20px;
+}
+#profile-pic img {
+    width: 432px;
+}
+#about-me {
+    background-image: linear-gradient(to bottom left, #ded1de,#fbfafb);
+    width: 420px;
+}
+#about-me h3{
+    color: white;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #b0afb4, #898794, #b0afb4);
+}
+#about-me p {
+    margin: 10px;
+}
+#about-me h3 {
+    margin: 0px;
+}
+#panel-content {
+    margin: 0 0 20px 20px;
+    display: inline-block;
+}
+#family{
+    margin: 0 20px;
+}
+.panel { 
+    display: inline-block;
+    width: 278px;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom left, #ded1de,#fbfafb) ;
+    text-align: center;
+}
+#la-mode-badges, #family-badges, #five-seven-badges {
+    text-align: left;
+}
+
+.panel p {
+    padding: 0 10px;
+    margin: 0;
+    text-align: left;
+
+}
+.panel h3, .panel h4 {
+    margin: 0px;
+    padding: 3px 0 3px 15px;
+    color: white;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #b0afb4, #898794, #b0afb4);
+    text-align: left;
+}
+.tech img {
+    margin: 5px;
+    width: 35px;
+    text-align: left;
+}
+.button {
+    color: white;
+    background-color: #407d61;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 5px 5px black;
+    margin-bottom: 15px;
+}
+#footer {
+    text-align: center;
+    background-image: linear-gradient(to top right, #f5f5f5, #d4d4d4);
+}
+#footer p {
+    padding-top: 5px;
+    margin: 10px;
+
+}
+#footer img{
+    width: 20px;
+}
+#footer a, #footer img {
+    display: inline-block;
+    vertical-align: middle;
+}
